@@ -7,7 +7,7 @@ int main() {
     cin >> command;
     cout << "Enter battery level (0-100): ";
     cin >> batteryLevel;
-    cout << "\n--- Rover Status Report ---" << endl;
+    cout << "\n--- Improve Rover Status Report ---" << endl;
     cout << "Power Status: " << ((batteryLevel >= 50) ? "POWER OK" : "LOW POWER") << endl;
     cout << "Executed Action: ";
     switch (command) {
